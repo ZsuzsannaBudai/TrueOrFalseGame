@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ColorGame</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="hi_this_is_the_official_true_or_false_game_you_can_say_true_by_tilting_your_phone_right_if_the_sentecne_in_your_mind_is_correct_and_you_can_say_no_by_tilting_your_phone_left_if_the_sentence_is_false">Hi, this is the official true or false game! You can say true by tilting your phone right, if the sentecne in your mind is correct, and you can say no by tilting your phone left if the sentence is false.</string>
+    <string name="let_s_play">Let\'s Play!</string>
+</resources>

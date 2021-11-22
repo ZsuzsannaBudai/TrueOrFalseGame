@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gyroscopeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openGyroscope"
+        android:text="@string/let_s_play"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="379dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/hi_this_is_the_official_true_or_false_game_you_can_say_true_by_tilting_your_phone_right_if_the_sentecne_in_your_mind_is_correct_and_you_can_say_no_by_tilting_your_phone_left_if_the_sentence_is_false"
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gyroscopeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
